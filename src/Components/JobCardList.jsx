@@ -1,35 +1,11 @@
-
-// import React from 'react';
-// import { useState, useEffect } from "react";
-
-
-
-// // Fetch JSON data on component mount
-// useEffect(() => {
-//   fetch("categorySection.json")
-//     .then((response) => response.json())
-//     .then(data => console.log(data));
-//   }, []);
- 
-// const CategorySection = () => {
-//   return (
-//     <div>
-//       
-//     </div>
-//   );
-// };
-
-// export default CategorySection;
-
-
 import React, { useState, useEffect } from "react";
 
 const JobCard = ({ logo, name, jobsAvailable }) => {
   return (
-    <div className="job-card">
-      <img src={logo} alt={name} />
-      <h3>{name}</h3>
-      <p>{jobsAvailable} jobs available</p>
+    <div className="job-card border m-6 p-5 drop-shadow-md bg-purple-100 rounded-md ">
+      <img className="p-4 bg-purple-200 rounded-md" src={logo} alt={name} />
+      <h3 className=" font-semibold text-black py-3">{name}</h3>
+      <p className=" text-slate-400">{jobsAvailable} jobs available</p>
     </div>
   );
 };
@@ -46,21 +22,15 @@ const JobCardList = () => {
 
   return (
     <div>
-      <div className=" text-center my-20">
+      <div className=" text-center mt-32">
         <h1 className=" text-4xl font-bold my-4">Job Category List</h1>
-        {" "}
         <p className=" text-slate-500 font-semibold">
-          {" "}
           <small>
-             Explore thousands of job opportunities with all the information
-            you need. Its your future{" "}
-          </small>
-          {" "}
-        </p>
-        {" "}
+             Explore thousands of job opportunities with all the information you need. Its your future
+          </small></p>
       </div>
 
-      <div className="job-card-list">
+      <div className="job-card-list md:grid md:grid-cols-4">
         {data.map((item) => (
           <JobCard
             key={item.name}
