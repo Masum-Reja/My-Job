@@ -49,7 +49,7 @@ const Header = () => {
           </li>
         </ul>
 
-        <Link className=" text-white bg-indigo-500/90 p-2 rounded-md font-bold">
+        <Link className=" text-white bg-gradient-to-r from-violet-500 to-fuchsia-500 p-2 rounded-md font-bold">
           Star Applying
         </Link>
         {/* Mobile Navbar Section */}

@@ -9,14 +9,16 @@ const Banner = () => {
         <div className=" md:pe-10">
           <h1 className="text-6xl font-bold my-4 mt-20 lg:pe-24">
             One Step Closer To Your{" "}
-            <span className=" text-indigo-600">Dream Job</span>
+            <span className="text-violet-500 to-fuchsia-500">
+              Dream Job
+            </span>
           </h1>
           <p className=" mb-5 text-slate-400 font-medium font-Manrope">
             Explore thousands of job opportunities with all the information you
             need. Its your future. Come find it. Manage all your job application
             from start to finish.
           </p>
-          <Link className=" text-white bg-indigo-500/90 p-2 rounded-md font-bold">
+          <Link className=" text-white bg-gradient-to-r from-violet-500 to-fuchsia-500 p-2 rounded-md font-bold">
             Get Started
           </Link>
         </div>
