@@ -1,0 +1,24 @@
+{
+  "categorySection": [
+    {
+      "logo": "https://example.com/category1_logo.png",
+      "name": "Category 1",
+      "jobsAvailable": 50
+    },
+    {
+      "logo": "https://example.com/category2_logo.png",
+      "name": "Category 2",
+      "jobsAvailable": 75
+    },
+    {
+      "logo": "https://example.com/category3_logo.png",
+      "name": "Category 3",
+      "jobsAvailable": 20
+    },
+    {
+      "logo": "https://example.com/category4_logo.png",
+      "name": "Category 4",
+      "jobsAvailable": 35
+    }
+  ]
+}
