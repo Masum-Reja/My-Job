@@ -1,24 +1,24 @@
-{
-  "categorySection": [
+
+  [
     {
-      "logo": "https://example.com/category1_logo.png",
-      "name": "Category 1",
-      "jobsAvailable": 50
+      "logo": "../src/assets/Icons/accounts 1.png",
+      "name": "Accounting & Finance",
+      "jobsAvailable": 1234
     },
     {
-      "logo": "https://example.com/category2_logo.png",
-      "name": "Category 2",
-      "jobsAvailable": 75
+      "logo": "../src/assets/Icons/social-media 1.png",
+      "name": "IT & Software",
+      "jobsAvailable": 2345
     },
     {
-      "logo": "https://example.com/category3_logo.png",
-      "name": "Category 3",
-      "jobsAvailable": 20
+      "logo": "../src/assets/Icons/business 1.png",
+      "name": "Marketing",
+      "jobsAvailable": 3456
     },
     {
-      "logo": "https://example.com/category4_logo.png",
-      "name": "Category 4",
-      "jobsAvailable": 35
+      "logo": "../src/assets/Icons/chip 1.png",
+      "name": "Engineering",
+      "jobsAvailable": 4567
     }
   ]
-}
+
