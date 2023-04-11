@@ -1,13 +1,16 @@
 import React from 'react';
 import Banner from './Banner';
-import JobCardList from './JobCardList';
+import CategoryList from './CategoryList';
+import JobCard from './JobCard';
 
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <JobCardList></JobCardList>
+      <CategoryList></CategoryList>
+      <JobCard></JobCard>
+     
     </div>
   );
 };
