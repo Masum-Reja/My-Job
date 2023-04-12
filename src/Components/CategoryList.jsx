@@ -26,8 +26,10 @@ const CategoryList = () => {
         <h1 className=" text-4xl font-bold my-4">Job Category List</h1>
         <p className=" text-slate-500 font-semibold">
           <small>
-             Explore thousands of job opportunities with all the information you need. Its your future
-          </small></p>
+            Explore thousands of job opportunities with all the information you
+            need. Its your future
+          </small>
+        </p>
       </div>
 
       <div className="job-card-list md:grid md:grid-cols-4">

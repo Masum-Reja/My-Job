@@ -17,7 +17,7 @@ const Header = () => {
         <Link to="/" className="inline-flex items-center">
           <BriefcaseIcon className="h-6 w-6 text-blue-500" />
           <span className="ml-2 text-xl font-bold tracking-wide text-gray-800">
-            MyJobBrand
+            MyJobBoard
           </span>
         </Link>
 
@@ -29,6 +29,15 @@ const Header = () => {
               className={({ isActive }) => (isActive ? "active" : "default")}
             >
               Home
+            </NavLink>
+          </li>
+          
+          <li>
+            <NavLink
+              to="/appliedJobs"
+              className={({ isActive }) => (isActive ? "active" : "default")}
+            >
+              Applied Jobs
             </NavLink>
           </li>
           <li>
@@ -100,6 +109,14 @@ const Header = () => {
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
                       >
                         Statistics
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/appliedJobs"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
+                      >
+                        Applied Jobs
                       </Link>
                     </li>
                     <li>
