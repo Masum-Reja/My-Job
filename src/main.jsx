@@ -9,9 +9,8 @@ import Blog from "./Components/Blog";
 import ErrorPage from "./Components/ErrorPage";
 import LoadingSpinner from "./Components/LoadingSpinner";
 import AllJobs from "./Jobs/AllJobs";
-import JobDetails from "./Jobs/JobDetails";
 import AppliedJobs from "./Components/AppliedJobs";
-import Job from "./Jobs/Job";
+
 
 const router = createBrowserRouter([
   {
@@ -47,11 +46,6 @@ const router = createBrowserRouter([
         path: "loader",
         element: <LoadingSpinner></LoadingSpinner>,
       },
-      {
-        path: "job:/${id}",
-        element: <Job></Job>,
-      },
-      
     ],
   },
 ]);
@@ -59,6 +53,5 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router}></RouterProvider>
-
   </React.StrictMode>
 );

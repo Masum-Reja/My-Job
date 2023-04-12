@@ -1,10 +1,7 @@
-import React, {  createContext, useState } from "react";
-import { Link,useLoaderData } from "react-router-dom";
+import React, { createContext, useState } from "react";
+import { Link, useLoaderData } from "react-router-dom";
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
 import JobDetails from "./JobDetails";
-import Job from "./Job";
-
-
 
 const JobCard = ({ item, handleAddToCart }) => {
   const {
@@ -28,7 +25,7 @@ const JobCard = ({ item, handleAddToCart }) => {
       <button className=" text-blue-400 border me-5 border-blue-600 font-bold bg-gradient-to-r py-1 px-3 rounded-sm">
         {fulltime_parttime}
       </button>
-      
+
       <div className=" my-7 flex gap-9  text-slate-600 font-semibold">
         <p className=" flex">
           <MapPinIcon className="h-6 w-6 fill-none stroke-slate-600 me-2"></MapPinIcon>
@@ -40,7 +37,7 @@ const JobCard = ({ item, handleAddToCart }) => {
         </p>
       </div>
       <Link
-         //to={`/job/${id}`}
+        //to={`/job/${id}`}
         onClick={() => handleAddToCart(item)}
         className="text-white bg-gradient-to-r from-violet-500 to-fuchsia-500 p-2 mb-6 rounded-sm font-bold"
       >
@@ -50,17 +47,14 @@ const JobCard = ({ item, handleAddToCart }) => {
   );
 };
 
-
 export const MyContext = createContext();
- 
-const AllJobs = () => {
 
+const AllJobs = () => {
   const [cart, setCart] = useState([]);
   const handleAddToCart = (item) => {
     const newCart = [item];
     setCart(newCart);
   };
-
 
   const alljobs = useLoaderData();
   const [numToShow, setNumToShow] = useState(4);
@@ -68,11 +62,6 @@ const AllJobs = () => {
   const handleShowMore = () => {
     setNumToShow(6); // Show all the job cards
   };
-
-
- 
-  
-  
 
   return (
     <div>

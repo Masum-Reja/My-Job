@@ -1,17 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import MyImage from "../assets/All Images/P3OLGJ1 copy 1.png";
+import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div>
+    <div className=" bg-slate-200 p-6 banner1">
       <div className="md:flex items-center">
         <div className=" md:pe-10">
           <h1 className="text-6xl font-bold my-4 mt-20 lg:pe-24">
             One Step Closer To Your{" "}
-            <span className="text-violet-500 to-fuchsia-500">
-              Dream Job
-            </span>
+            <span className="text-violet-500 to-fuchsia-500">Dream Job</span>
           </h1>
           <p className=" mb-5 text-slate-400 font-medium font-Manrope">
             Explore thousands of job opportunities with all the information you

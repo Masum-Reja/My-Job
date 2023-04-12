@@ -1,13 +1,15 @@
 import React from "react";
-//import { useLoaderData } from 'react-router-dom';
+import "./Banner.css";
 
 const Blog = () => {
   return (
     <div>
-      <h1 className=" text-center mt-32 text-4xl font-bold my-4">
-        Question Answer Section
-      </h1>
-      <blockquote className=" border-2 p-5 my-5">
+      <div className="banner">
+        <h1 className="text-center text-4xl font-bold ">
+          Question Answer Section
+        </h1>
+      </div>
+      <blockquote className=" border-2 p-5 my-5  hover:bg-gray-100 bg-slate-200">
         <h3 className=" font-semibold text-2xl">
           1. When should you use context API?
         </h3>
@@ -45,7 +47,7 @@ const Blog = () => {
         </p>
       </blockquote>
 
-      <blockquote className=" border-2 p-5 my-5">
+      <blockquote className="hover:bg-gray-100 bg-slate-200 border-2 p-5 my-5 ">
         <h3 className=" font-semibold text-2xl">2. What is a custom hook?</h3>
         <p>
           {" "}
@@ -61,7 +63,7 @@ const Blog = () => {
         </p>
       </blockquote>
 
-      <blockquote className=" border-2 p-5 my-5">
+      <blockquote className="hover:bg-gray-100 bg-slate-200 border-2 p-5 my-5">
         <h3 className=" font-semibold text-2xl">3. What is'useRef'?</h3>
         <p>
           {" "}
@@ -78,7 +80,7 @@ const Blog = () => {
         </p>
       </blockquote>
 
-      <blockquote className=" border-2 p-5 my-5">
+      <blockquote className="hover:bg-gray-100 bg-slate-200 border-2 p-5 my-5">
         <h3 className=" font-semibold text-2xl">What is 'useMemo'?</h3>
         <p>
           <br />

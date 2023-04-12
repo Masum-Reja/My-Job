@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import "./Banner.css";
 import {
   AreaChart,
   Area,
@@ -9,25 +10,26 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-
-
 const Statistics = () => {
-const data = [
-  { AssignmentNo: "Assignment: 1", marks: 57 },
-  { AssignmentNo: "Assignment: 2", marks: 60 },
-  { AssignmentNo: "Assignment: 3", marks: 58 },
-  { AssignmentNo: "Assignment: 4", marks: 60 },
-  { AssignmentNo: "Assignment: 5", marks: 38 },
-  { AssignmentNo: "Assignment: 6", marks: 51 },
-  { AssignmentNo: "Assignment: 7", marks: 60 },
-  { AssignmentNo: "Assignment: 8", marks: 58 },
-];
-      
+  const data = [
+    { AssignmentNo: "Assignment: 1", marks: 57 },
+    { AssignmentNo: "Assignment: 2", marks: 60 },
+    { AssignmentNo: "Assignment: 3", marks: 58 },
+    { AssignmentNo: "Assignment: 4", marks: 60 },
+    { AssignmentNo: "Assignment: 5", marks: 38 },
+    { AssignmentNo: "Assignment: 6", marks: 51 },
+    { AssignmentNo: "Assignment: 7", marks: 60 },
+    { AssignmentNo: "Assignment: 8", marks: 58 },
+  ];
+
   return (
-    <div className=" mt-24">
-      <h1 className=' text-center text-4xl font-bold mb-9 underline text-violet-500 to-fuchsia-500'>
-        Assignment Analytics
-      </h1>
+    <div>
+      <div className="banner">
+        {" "}
+        <h1 className=" text-center text-4xl font-bold ">
+          Assignment Analytics
+        </h1>
+      </div>
       <AreaChart
         width={1000}
         height={300}

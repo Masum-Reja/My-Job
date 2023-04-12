@@ -1,24 +1,22 @@
-
-  [
-    {
-      "logo": "../src/assets/Icons/accounts 1.png",
-      "name": "Accounting & Finance",
-      "jobsAvailable":"123+"
-    },
-    {
-      "logo": "../src/assets/Icons/social-media 1.png",
-      "name": "IT & Software",
-      "jobsAvailable":" 234"
-    },
-    {
-      "logo": "../src/assets/Icons/business 1.png",
-      "name": "Marketing",
-      "jobsAvailable": "345+"
-    },
-    {
-      "logo": "../src/assets/Icons/chip 1.png",
-      "name": "Engineering",
-      "jobsAvailable": "456"
-    }
-  ]
-
+[
+  {
+    "logo": "../src/assets/Icons/accounts 1.png",
+    "name": "Accounting & Finance",
+    "jobsAvailable": "123+"
+  },
+  {
+    "logo": "../src/assets/Icons/social-media 1.png",
+    "name": "IT & Software",
+    "jobsAvailable": " 234"
+  },
+  {
+    "logo": "../src/assets/Icons/business 1.png",
+    "name": "Marketing",
+    "jobsAvailable": "345+"
+  },
+  {
+    "logo": "../src/assets/Icons/chip 1.png",
+    "name": "Engineering",
+    "jobsAvailable": "456"
+  }
+]
