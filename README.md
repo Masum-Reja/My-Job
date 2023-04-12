@@ -22,3 +22,6 @@ a button see all jobs ,when click then display all the card.
 7. Job card have view detail button ,click it then open details of the card.
 8. Applied Job all the jobs that already applied.
 9. In this page have a filter button and filter by OnSite and Remote job.
+
+## Live site : https://loquacious-parfait-bfa379.netlify.app/appliedJobs
+* (For the large file size all image's aren't load in the live site after deploy but all icons and images are available in code) 

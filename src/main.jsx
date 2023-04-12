@@ -7,7 +7,6 @@ import Home from "./Components/Home";
 import Statistics from "./Components/Statistics";
 import Blog from "./Components/Blog";
 import ErrorPage from "./Components/ErrorPage";
-import LoadingSpinner from "./Components/LoadingSpinner";
 import AllJobs from "./Jobs/AllJobs";
 import AppliedJobs from "./Components/AppliedJobs";
 
@@ -41,10 +40,6 @@ const router = createBrowserRouter([
       {
         path: "alljobs",
         element: <AllJobs></AllJobs>,
-      },
-      {
-        path: "loader",
-        element: <LoadingSpinner></LoadingSpinner>,
       },
     ],
   },
