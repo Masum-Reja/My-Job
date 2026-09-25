@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # b7a9-career-hub-Masum-Reja
 
 ## Assignment Task Summary
@@ -25,3 +26,6 @@ a button see all jobs ,when click then display all the card.
 
 ## Live site : https://loquacious-parfait-bfa379.netlify.app/appliedJobs
 * (For the large file size all image's aren't load in the live site after deploy but all icons and images are available in code) 
+=======
+# My-Job
+>>>>>>> fb9c8459061162f1b643894094997aa47255c634
